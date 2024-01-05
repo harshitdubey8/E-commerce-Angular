@@ -1,0 +1,21 @@
+.homescreen {
+  padding-top: 10px;
+}
+
+.hero_img {
+  height: 400px;
+  width: 100%;
+}
+
+#product-img {
+  height: 150px;
+  width: 150px;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-group {
+  gap: 10px;
+}

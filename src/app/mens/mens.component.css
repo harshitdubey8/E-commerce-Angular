@@ -1,0 +1,15 @@
+.men-screen {
+  padding: 10px;
+}
+#product-img-2 {
+  height: 250px;
+  width: 150px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card-group {
+  gap: 10px;
+}
