@@ -14,9 +14,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { CartComponent } from './cart/cart.component';
 import { OrdersComponent } from './orders/orders.component';
+import { KidsComponent } from './kids/kids.component';
+import { ReturnProductComponent } from './return-product/return-product.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, MensComponent, HomescreenComponent, WomensComponent, LoginComponent, RegisterComponent, CartComponent, OrdersComponent],
+  declarations: [AppComponent, NavbarComponent, MensComponent, HomescreenComponent, WomensComponent, LoginComponent, RegisterComponent, CartComponent, OrdersComponent, KidsComponent, ReturnProductComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],

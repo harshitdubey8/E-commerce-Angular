@@ -4,6 +4,7 @@
 #product-img-2 {
   height: 250px;
   width: 150px;
+  object-fit: contain;
 }
 
 .card {
