@@ -9,6 +9,7 @@ import { CartComponent } from './cart/cart.component';
 import { OrdersComponent } from './orders/orders.component';
 import { KidsComponent } from './kids/kids.component';
 import { ReturnProductComponent } from './return-product/return-product.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'orders', component: OrdersComponent },
   { path: 'return', component: ReturnProductComponent },
+  { path: 'feedback', component: FeedbackComponent },
 ];
 
 @NgModule({
